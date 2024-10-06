@@ -2,7 +2,7 @@
 
 ## Deployed Project
 
-[Live Demo](http://link-to-your-deployed-project) <!-- Replace with your deployed project link -->
+[Live Demo](https://appscrip-arun-rai.netlify.app/) <!-- Replace with your deployed project link -->
 
 ## Technologies Used
 
@@ -11,8 +11,6 @@
 - HTML
 - CSS
 - JavaScript
-- Axios (for API calls)
-- FakeStore API (for fetching product data)
 - Git (for version control)
 
 ## Features
