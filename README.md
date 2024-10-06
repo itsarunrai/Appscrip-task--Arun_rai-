@@ -1,40 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Appscrip Task - Arun Rai
 
-## Getting Started
+## Deployed Project
 
-First, run the development server:
+[Live Demo](http://link-to-your-deployed-project) <!-- Replace with your deployed project link -->
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- React.js
+- Next.js
+- HTML
+- CSS
+- JavaScript
+- Axios (for API calls)
+- FakeStore API (for fetching product data)
+- Git (for version control)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Features
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Product discovery with filtering options.
+- Responsive design for both desktop and mobile views.
+- Dynamic product listing using data from the FakeStore API.
+- User-friendly interface with easy navigation.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## How to Run the Project Locally
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To run this project on your local machine, follow these steps:
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+Ensure you have the following installed on your machine:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [Git](https://git-scm.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Clone the Repository
 
-## Deploy on Vercel
+1. Open your terminal and run the following command to clone the repository:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git clone https://github.com/username/appscrip-task-arun-rai.git  <!-- Replace with your GitHub repository URL -->
+   ```
