@@ -1,0 +1,112 @@
+.footerContainer {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+}
+
+.topSection {
+    border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribeSection,
+.contactSection {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.subscribeSection h2,
+.contactSection h2 {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.subscribeInput {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.subscribeInput input {
+    padding: 0.5rem;
+    width: 60%;
+    background-color: black;
+    border: 1px solid gray;
+    color: white;
+}
+
+.subscribeInput button {
+    padding: 0.5rem;
+    background-color: gray;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.linksSection {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linksSection div {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.linksSection h2 {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.linksSection ul {
+    list-style: none;
+    padding: 0;
+}
+
+.linksSection li {
+    margin: 0.5rem 0;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.paymentIcons {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.bottomSection {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.75rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .topSection {
+        flex-direction: column;
+    }
+
+    .subscribeInput {
+        flex-direction: column;
+    }
+
+    .subscribeInput input {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .linksSection {
+        flex-direction: column;
+    }
+
+    .linksSection div {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}   

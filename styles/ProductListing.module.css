@@ -1,0 +1,147 @@
+.productListingContainer {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 1rem;
+    border-right: 1px solid #ccc;
+}
+
+.filterHeader {
+    margin-bottom: 1rem;
+}
+
+.filterCount {
+    font-weight: bold;
+}
+
+.hideFilter {
+    margin-left: 0.5rem;
+    color: blue;
+}
+
+.filterGroup {
+    margin-bottom: 1rem;
+}
+
+.checkbox {
+    margin-right: 0.5rem;
+}
+
+.main {
+    width: 75%;
+    padding: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.recommendedText {
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdownButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.dropdownMenu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+.dropdownItem {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.dropdownItem:hover {
+    background: #f0f0f0;
+}
+
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.productCard {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+.productImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.productName {
+    font-weight: bold;
+}
+
+.productDescription {
+    color: gray;
+    font-size: 0.875rem;
+}
+
+.buttonContainer {
+    margin-top: 0.5rem;
+}
+
+.favoriteButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdownIcon {
+    width: 16px;
+    height: auto;
+    margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+    .productListingContainer {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .productGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .productGrid {
+        grid-template-columns: 1fr;
+    }
+}
